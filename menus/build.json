@@ -1,0 +1,30 @@
+{
+  "menu": [ {
+    "label": "Packages",
+    "submenu": [ {
+        "label": "SB Build",
+        "submenu": [ {
+          "label": "Build project",
+          "command": "starbound-build:trigger"
+        },
+        {
+          "label": "Terminate build",
+          "command": "starbound-build:stop"
+        },
+        {
+          "label": "Select active target",
+          "command": "starbound-build:select-active-target"
+        },
+        {
+          "label": "Refresh targets",
+          "command": "starbound-build:refresh-targets"
+        },
+        {
+          "label": "Toggle panel",
+          "command": "starbound-build:toggle-panel"
+        } ]
+      } ]
+  } ],
+
+  "context-menu": {}
+}
