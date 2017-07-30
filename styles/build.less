@@ -67,9 +67,14 @@
   }
 
   .output {
+    overflow-x: auto;
+    overflow-y: hidden;
+
     &.override-theme {
       color: #fff;
       background-color: #000;
+
+
     }
 
     .terminal {
@@ -79,6 +84,7 @@
       width: 100%;
       font-weight: normal;
       > div {
+		background-color: #000;
         white-space: nowrap;
         font-size: inherit;
       }
