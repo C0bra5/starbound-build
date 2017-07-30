@@ -1,7 +1,7 @@
 {
   "name": "starbound-build",
   "main": "./lib/build",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Launch Starbound directly from atom.",
   "license": "MIT",
   "repository": "https://github.com/C0bra5/starbound-build",
