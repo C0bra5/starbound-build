@@ -1,30 +1,30 @@
 {
-  ".platform-darwin atom-workspace, .platform-darwin atom-text-editor": {
-    "cmd-alt-b": "starbound-build:trigger",
-    "cmd-alt-v": "starbound-build:toggle-panel",
-    "cmd-alt-g": "starbound-build:error-match",
-    "cmd-alt-h": "starbound-build:error-match-first",
-    "cmd-alt-t": "starbound-build:select-active-target"
-  },
-  ".platform-linux atom-workspace, .platform-linux atom-text-editor, .platform-win32 atom-workspace, .platform-win32 atom-text-editor": {
-    "ctrl-alt-b": "starbound-build:trigger",
-    "ctrl-alt-v": "starbound-build:toggle-panel",
-    "ctrl-alt-g": "starbound-build:error-match",
-    "ctrl-alt-h": "starbound-build:error-match-first",
-    "ctrl-alt-t": "starbound-build:select-active-target"
-  },
-  "atom-workspace, atom-text-editor": {
-    "f9": "starbound-build:trigger",
-    "f8": "starbound-build:toggle-panel",
-    "f4": "starbound-build:error-match",
-    "shift-f4": "starbound-build:error-match-first",
-    "f7": "starbound-build:select-active-target"
-  },
-  ".build": {
-    "escape": "starbound-build:stop"
-  },
-  ".build-confirm": {
-    "enter": "starbound-build:confirm",
-    "escape": "starbound-build:no-confirm"
-  }
+	".platform-darwin atom-workspace, .platform-darwin atom-text-editor": {
+		"cmd-alt-b": "starbound-build:trigger",
+		"cmd-alt-v": "starbound-build:toggle-panel",
+		"cmd-alt-g": "starbound-build:error-match",
+		"cmd-alt-h": "starbound-build:error-match-first",
+		"cmd-alt-t": "starbound-build:select-active-target"
+	},
+	".platform-linux atom-workspace, .platform-linux atom-text-editor, .platform-win32 atom-workspace, .platform-win32 atom-text-editor": {
+		"ctrl-alt-b": "starbound-build:trigger",
+		"ctrl-alt-v": "starbound-build:toggle-panel",
+		"ctrl-alt-g": "starbound-build:error-match",
+		"ctrl-alt-h": "starbound-build:error-match-first",
+		"ctrl-alt-t": "starbound-build:select-active-target"
+	},
+	"atom-workspace, atom-text-editor": {
+		"f9": "starbound-build:trigger",
+		"f8": "starbound-build:toggle-panel",
+		"f4": "starbound-build:error-match",
+		"shift-f4": "starbound-build:error-match-first",
+		"f7": "starbound-build:select-active-target"
+	},
+	".build": {
+		"escape": "starbound-build:stop"
+	},
+	".build-confirm": {
+		"enter": "starbound-build:confirm",
+		"escape": "starbound-build:no-confirm"
+	}
 }
