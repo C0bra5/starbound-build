@@ -2,26 +2,30 @@
 	"menu": [ {
 		"label": "Packages",
 		"submenu": [ {
-				"label": "SB Build",
+				"label": "Starbound",
 				"submenu": [ {
-					"label": "Build project",
-					"command": "starbound-build:trigger"
+					"label": "Start starbound",
+					"command": "starbound-build:start-game"
 				},
 				{
-					"label": "Terminate build",
-					"command": "starbound-build:stop"
+					"label": "Stop starbound",
+					"command": "starbound-build:stop-game"
 				},
 				{
-					"label": "Select active target",
-					"command": "starbound-build:select-active-target"
-				},
-				{
-					"label": "Refresh targets",
-					"command": "starbound-build:refresh-targets"
-				},
-				{
-					"label": "Toggle panel",
+					"label": "Toggle log panel",
 					"command": "starbound-build:toggle-panel"
+				},
+				{
+					"label": "Go to next error",
+					"command": "starbound-build:error-match"
+				},
+				{
+					"label": "Go to first error",
+					"command": "starbound-build:error-match-first"
+				},
+				{
+					"label": "Clear log errors",
+					"command": "starbound-build:clear-errors"
 				} ]
 			} ]
 	} ],

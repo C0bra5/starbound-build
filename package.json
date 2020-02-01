@@ -6,11 +6,6 @@
   "license": "MIT",
   "repository": "https://github.com/C0bra5/starbound-build",
   "consumedServices": {
-    "builder": {
-      "versions": {
-        "^2.0.0": "consumeBuilder"
-      }
-    },
     "status-bar": {
       "versions": {
         "^1.0.0": "consumeStatusBar"
@@ -23,7 +18,7 @@
     },
     "linter-indie": {
       "versions": {
-        "1.0.0": "consumeLinterRegistry"
+        "2.0.0": "consumeLinterRegistry"
       }
     }
   },
@@ -31,18 +26,7 @@
     "atom-package-deps": "^4.0.1",
     "atom-space-pen-views": "^2.0.3",
     "cross-spawn": "^4.0.2",
-    "getmac": "^1.0.7",
-    "js-yaml": "^3.4.6",
-    "tree-kill": "^1.0.0",
-    "xregexp": "^3.1.0"
-  },
-  "devDependencies": {
-    "atom-build-spec-helpers": "^0.4.0",
-    "babel-eslint": "^6.0.0",
-    "eslint": "^2.10.1",
-    "eslint-config-atom-build": "^3.0.0",
-    "fs-extra": "^2.1.2",
-    "temp": "^0.8.1"
+    "tree-kill": "^1.0.0"
   },
   "engines": {
     "atom": ">=1.0.0"
@@ -52,8 +36,5 @@
     "busy"
   ],
   "readme": "Based on the [build](https://atom.io/packages/build) package, this is a modified version of the original package made to help with starbound mod developpement.\n\nThis package is part of the starbound modding package suite for atom, all plugins are maintained and modified by [C0bra5](https://atom.io/users/C0bra5).\n\nThis plugin is till a work in progress.",
-  "readmeFilename": "README.md",
-  "scripts": {
-    "test": "eslint ."
-  }
+  "readmeFilename": "README.md"
 }
